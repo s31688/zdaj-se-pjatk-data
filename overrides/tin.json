@@ -1,5 +1,6 @@
 {
-  "$schema":"../schemas/subject-override.json",
+  "$schema": "../schemas/subject-override.json",
+  "updatedAt": 1688343824150,
   "data": [
     {
       "id": 2142,
@@ -8,7 +9,32 @@
     {
       "id": 2141,
       "question": "Język WSDL służy wyspecyfikowaniu (wskaż kompletną odpowiedź)"
+    },
+    {
+      "question": "Wyrażenie w języku Ruby&nbsp;<strong>:xyz.class</strong> zwróci:",
+      "isMarkdown": false,
+      "answers": [
+        {
+          "answer": "klasę Method",
+          "correct": false,
+          "isMarkdown": false
+        },
+        {
+          "answer": "klasę Symbol",
+          "correct": true,
+          "isMarkdown": false
+        },
+        {
+          "answer": "błąd - literały w języku Ruby nie implementują metod",
+          "correct": false,
+          "isMarkdown": false
+        },
+        {
+          "answer": "błąd - wyrażenie rozpoczęte dwukropkiem niezgodne ze składnią języka",
+          "correct": false,
+          "isMarkdown": false
+        }
+      ]
     }
-  ],
-  "updatedAt": 1659128883934
+  ]
 }
